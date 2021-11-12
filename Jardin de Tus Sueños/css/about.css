@@ -1,0 +1,62 @@
+.banner {
+    margin-top: 15%;
+}
+
+.containercajas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1em;
+    margin: 40px;
+}
+
+.vision {
+    background-color: palegoldenrod;
+    padding: 0.5rem 2rem !important;
+    box-shadow: 0 7px 14px rgb(0 0 0 / 36%);
+    text-align: center;
+    color: black;
+}
+
+.mision {
+    background-color:palegoldenrod;
+    padding: 0.5rem 2rem !important;
+    box-shadow: 0 7px 14px rgb(0 0 0 / 36%);
+    text-align: center;
+    color:black;
+}
+
+.parrafovision{
+    text-align: justify;
+}
+
+.parrafomision {
+    text-align: justify;
+}
+
+.containerparrafos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1em;
+    margin: 40px;
+}
+
+/**.modelos {
+    padding: 3rem 0;
+}**/
+
+.container-modelos {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--backgroundColor);
+    padding: 10px;
+    margin: auto;
+}
+
+
+.columnaabout {
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+
